@@ -1,0 +1,23 @@
+.col-menus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    height: 150px;
+    font-size: large;
+}
+
+.row-menus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-menus {
+    font-size: 25px;
+    margin: 10px;
+}

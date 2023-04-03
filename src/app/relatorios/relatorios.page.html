@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Relatórios</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-grid>
+    <ion-row class="row-menus">
+      <ion-col size="5" *ngFor="let menu of menus; let ix = index;"
+      [ngClass]="ix % 2 == 0 ? 'linha-esq' : 'linha-dir'" class="col-menus ion-text-center">
+        <div>
+          <div>
+            <ion-icon [name]="menu.icone" class="icon-menus"></ion-icon>
+          </div>
+          <div>
+            {{menu.titulo}}
+          </div>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
